@@ -1,0 +1,22 @@
+APP feedback:
+login and logout works(but add security if left unattended for 10 mintues it should logouts users automatically)
+dashboard is working good(we need to implement data based insignts (real data from database)), also use LOGO which give you on the left side shield icon, user profile,organization and settings not working(in dropdown), notifications bell is not working(does not shows notifications), latsly the ? icon in the last is also not working.
+campaings page is working good (campaings schdeuler too (brings groups and smtp profiles))
+Email Template is not working(create email template lead to [plugin:runtime-error-plugin] Cannot destructure property 'getFieldState' of 'useFormContext(...)' as it is null.
+/home/runner/workspace/client/src/components/ui/form.tsx:47:11
+45 |    const fieldContext = React.useContext(FormFieldContext)
+46 |    const itemContext = React.useContext(FormItemContext)
+47 |    const { getFieldState, formState } = useFormContext()
+   |            ^
+48 |  
+49 |    const fieldState = getFieldState(fieldContext.name, formState)
+    at useFormField /home/runner/workspace/client/src/components/ui/form.tsx:47:11
+    at /home/runner/workspace/client/src/components/ui/form.tsx:110:67
+Click outside, press Esc key, or fix the code to dismiss.
+You can also disable this overlay by setting server.hmr.overlay to false in vite.config.js.)  
+Groups page is partially working (create groups is working) but the created groups can not be deleted, can view its members(but adding memeber does not add member just shows msg that member is added) also show blank and invisible memebres insteadd of real added member. edit button is working also import csv.
+Landing page has issues like UI(All Pages,Login Pages,Form Pages,Educational) when clicked on All Pages the other text are not visible(same like login and register button), secondly create template button is not working make it working and it should also give option to clone a webpage like in the gophish.
+SMTP page is working but some issues are these  like delete profile button does not work, the other is give some kinf of ? small information giving button or directly add the discription of the fileds like SMTP Host(what kind of data should be entered or what it is) and same for other fileds for ease of user.
+Reports page is working partially (only shows data and charts statically i think), Issues are filter by date is not working, export reports not working(when fix it make sure to expoert it in good design and user friendly data readibilty), UI issue like the landing pages buttons (Overview Campaign Reports User Performance Trends) when one is cliked other buttons text is not visible.
+Users page is working partially, create user is working (it shows only admin role chekbox add some other roles too with different previlages),manage user button is not working.
+Settings page is working partially, Issues:UI issue like landing page and reports no text visibleif one is selected(Account,Organization,Security,Notifications),(ACCOUNT section)when save changes (button pressed) does not shows mesg like login and groups creation  etc shows, in prefrences dark mode is not working(when toggle button does not changesto light mode) and also time zones dropdown list is not working, Organization(section) Organization Details save button does not shows mesg like it is saved or updated(also does not save data when change sections data disappears), Security (section) when update password doesnt shows msg(dont know if ot changes or not), 2fa configuration is not working(button is non clickable),Notifications(section) save button does not give msg.

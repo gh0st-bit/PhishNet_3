@@ -1,0 +1,125 @@
+/* SunEditor Orange & Grey Theme */
+.sun-editor {
+  background-color: #1a1a1a !important; /* Dark grey */
+  border-color: #333333 !important; /* Medium grey */
+  color: #e5e5e5 !important; /* Light grey text */
+}
+
+.sun-editor .se-container {
+  background-color: #1a1a1a !important; /* Dark grey */
+}
+
+.sun-editor .se-toolbar {
+  background-color: #262626 !important; /* Medium-dark grey */
+  border-bottom: 1px solid #404040 !important; /* Border grey */
+}
+
+.sun-editor .se-btn {
+  color: #e5e5e5 !important; /* Light grey text */
+  background-color: transparent !important;
+}
+
+.sun-editor .se-btn:hover {
+  background-color: #404040 !important; /* Medium grey */
+}
+
+.sun-editor .se-btn:active, 
+.sun-editor .se-btn.active {
+  background-color: #ff8000 !important; /* Orange */
+  color: white !important;
+}
+
+.sun-editor .se-btn-list:hover {
+  background-color: #404040 !important; /* Medium grey */
+}
+
+.sun-editor .se-list-layer {
+  background-color: #262626 !important; /* Medium-dark grey */
+  border-color: #404040 !important; /* Border grey */
+}
+
+.sun-editor .se-list-inner {
+  background-color: #262626 !important; /* Medium-dark grey */
+}
+
+.sun-editor .se-list-item {
+  color: #e5e5e5 !important; /* Light grey text */
+}
+
+.sun-editor .se-list-item:hover {
+  background-color: #ff8000 !important; /* Orange */
+  color: white !important;
+}
+
+.sun-editor .se-dialog {
+  background-color: #262626 !important; /* Medium-dark grey */
+  border-color: #404040 !important; /* Border grey */
+}
+
+.sun-editor .se-dialog-header {
+  background-color: #262626 !important; /* Medium-dark grey */
+  border-bottom: 1px solid #404040 !important; /* Border grey */
+}
+
+.sun-editor .se-dialog-header .se-dialog-close {
+  color: #e5e5e5 !important; /* Light grey text */
+}
+
+.sun-editor .se-dialog-content {
+  background-color: #262626 !important; /* Medium-dark grey */
+}
+
+.sun-editor .se-dialog-form label {
+  color: #e5e5e5 !important; /* Light grey text */
+}
+
+.sun-editor .se-dialog-form input,
+.sun-editor .se-dialog-form select,
+.sun-editor .se-dialog-form textarea {
+  background-color: #1a1a1a !important; /* Dark grey */
+  border-color: #404040 !important; /* Border grey */
+  color: #e5e5e5 !important; /* Light grey text */
+}
+
+.sun-editor .se-dialog-btn-primary {
+  background-color: #ff8000 !important; /* Orange */
+  color: white !important;
+}
+
+.sun-editor .se-dialog-btn-cancel {
+  background-color: #666666 !important; /* Medium grey */
+  color: #e5e5e5 !important; /* Light grey text */
+}
+
+.sun-editor .se-wrapper {
+  background-color: #1a1a1a !important; /* Dark grey */
+}
+
+.sun-editor .se-wrapper-inner {
+  background-color: #1a1a1a !important; /* Dark grey */
+}
+
+.sun-editor .se-resizing-bar {
+  background-color: #262626 !important; /* Medium-dark grey */
+  border-top: 1px solid #404040 !important; /* Border grey */
+}
+
+/* Editor content area */
+.sun-editor .se-wrapper .se-wrapper-wysiwyg {
+  background-color: #1a1a1a !important; /* Dark grey */
+  color: #e5e5e5 !important; /* Light grey text */
+}
+
+/* Fix the editor height to fit properly in the container */
+.sun-editor, 
+.sun-editor .se-container,
+.sun-editor .se-wrapper {
+  height: 100% !important;
+}
+
+/* Ensure editor is fully visible and scrollable */
+.sun-editor .se-wrapper .se-wrapper-wysiwyg {
+  min-height: 250px !important;
+  max-height: 400px !important;
+  overflow-y: auto !important;
+}
